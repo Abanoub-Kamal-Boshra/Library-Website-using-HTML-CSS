@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <div class="headBar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Things to do</a></li>
+            <li><a href="#">Contacts</a>
+                <ul>
+                    <li><a href="#">Link1</a></li>
+                    <li><a href="#">Link2</a></li>
+                    <li><a href="#">Link3</a></li>
+                    <li><a href="#">Link4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">News</a></li>
+            <li><button id="login_inside"><a>Login</a></button></li>
+            <li><button id="signup_inside"><a>Sign Up</a></button></li>
+        </ul>
+    </div>
+    <div id="signupPage">
+        <br><br><caption><h1 class="captionSentence">Sign Up</h1></caption> 
+        <form class="formClass" action="./Library Website.html" method="post">
+            <label for="username">Username</label><br>
+            <input type="text" name="username" id="username" required placeholder="Enter Username"><br> <br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" required placeholder="Enter Password"><br> <br>
+            <label for="password">confirm the Password</label><br>
+            <input type="password" name="password" id="password" required placeholder="Eenter Password"> <br> <br>          
+            <input type="submit" name="signupsubment" id="signupsubment" value="Sign Up"><br> <br>
+            <a href="./Library Website.html" id="cancelSignUp">cancel</a>
+        </form>
+    </div>
+</body>
+</html>

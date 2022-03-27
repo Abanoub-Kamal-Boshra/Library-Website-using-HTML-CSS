@@ -1,0 +1,276 @@
+body
+{
+    background-image: url('./library-wallpapers.jpg');
+    background: cover;
+    margin: 0;
+}
+div.headBar 
+{
+    background-color: black;
+    width: 100%;
+    height: 3.3em;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+div.headBar ul li
+{
+    display: inline-block;
+    float: left;
+}
+div.headBar ul li ul li
+{
+    display: none;
+    /*visibility: hidden;*/
+    clear: both;
+
+}
+div.headBar ul li:hover ul li
+{
+    display: block;
+    /*visibility: visible;*/
+    background-color: black;
+}
+
+div.headBar ul li > a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.3em 1em ;
+    margin: 1.2em 3em;
+}
+div.headBar ul li ul li  a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.headBar ul li ul li
+{
+    padding: 0.7em 0;
+    margin: 0;
+    position: relative;
+    right: 17%;
+    top: 1.172em;
+}
+
+div.headBar ul li button a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.3em 2em;
+    margin: 0;
+}
+
+div.headBar a:hover
+{
+    background-color: red;
+    border-radius: 20em;
+}
+div.headBar #signup, #signup_inside
+{
+    background-color: red;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 1.3em;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: fixed;
+    top: 1.5%;
+    right: 2em;
+    padding: 0.5em 0;
+    margin: 0;
+}
+div.headBar #login, #login_inside
+{
+    background-color: red;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 1.3em;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: fixed;
+    top: 1.5%;
+    right: 12em;
+    padding: 0.5em 0;
+    margin: 0;
+}
+
+/************************************************************************/
+div.block1
+{
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 25;
+    width: 25%;
+    height: 60%;
+    left: 4%;
+    /* top: 40%; */
+    bottom: 2%;
+}
+div.block2
+{
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 28%;
+    height: 60%;
+    position: absolute;
+    left: 35%;
+    /* top: 40%; */
+    bottom: 2%;
+}
+div.block3
+{
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 28%;
+    height: 60%;
+    position: absolute;
+    right: 4%;
+    /* top: 40%; */
+    bottom: 2%;
+}
+div img.imgleft
+{
+    width: 35%;
+    height: 50%;
+    position: relative;
+    left: -4%;
+}
+div img.imgright
+{
+    width: 35%;
+    height: 50%;
+    position: relative;
+    right: -4%;
+}
+/******************************** Login page & Sing up page ******************************/
+#loginPage
+{
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    height: 55%;
+    position: absolute;
+    left: 35em;
+    top: 14em;
+}
+.sigupLink
+{
+    position: relative;
+    top: 2%;
+    left: 77%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.sigupLink:hover
+{
+    color: red;
+}
+.captionSentence
+{
+    text-align: center;
+    margin: 0.5em;
+}
+.formClass
+{
+    padding: 2em 5em;
+}
+#loginsubment
+{
+    position: relative;
+    left: 2.3em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color:red;
+    padding: 0.3em 3em;
+    border-radius: 1em;
+}
+#loginsubment:hover, #signupsubment:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 51, 0, 0.829);
+}
+#cancel
+{
+    position: relative;
+    top: 4%;
+    left: 8%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.forgot_donthave:hover,#cancel:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.forgot_donthave
+{
+    position: relative;
+    top: 0%;
+    left: 27%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+#signupPage
+{
+    background-color: black;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    height: 55%;
+    position: absolute;
+    left: 35em;
+    top: 14em;
+}
+#signupsubment
+{
+    position: relative;
+    left: 1.5em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color:red;
+    padding: 0.3em 3em;
+    border-radius: 1em;
+}
+#cancelSignUp
+{
+    position: relative;
+    top: 4%;
+    right: 30%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#cancelSignUp:hover
+{
+    color: red;
+    cursor: pointer;
+}
